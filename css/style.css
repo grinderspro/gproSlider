@@ -1,0 +1,25 @@
+.simpleCarouselBox {
+    width: 100px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.simpleCarouselList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.simpleCarouselList li {
+    width: 100px;
+    height: 100px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #ff0000;
+}
